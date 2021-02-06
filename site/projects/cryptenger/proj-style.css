@@ -1,0 +1,51 @@
+.client-server {
+    background: #444;
+    padding: 3rem 1.5rem;
+    margin-top: 2rem;
+}
+
+#cryptenger .client-server h1 {
+    font-size: 2.7rem;
+}
+
+/* TODO: Media screen */
+.client-box {
+    border-right: 2px solid #3b3b3b;
+}
+@media (max-width: 575.98px) {
+    .client-box {
+        border: none;
+    }
+
+    .server-title {
+        margin-top: 4rem;
+    }
+}
+
+.libraries {
+    background: #252525;
+    padding: 2rem;
+}
+.libraries h2 {
+    margin-bottom: 1.5rem;
+}
+
+
+.libraries .links {
+    display: flex;
+    justify-content: center;
+}
+.libraries .links .link {
+    margin: 0 .75rem;
+}
+
+.libraries .links a i {
+    color: #1b1817 !important;
+    font-size: 2rem;
+}
+
+.libraries .links .link span {
+    font-weight: 100;
+    font-size: .9rem;
+}
+

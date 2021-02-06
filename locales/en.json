@@ -1,0 +1,139 @@
+{
+    "curr_lang": "en",
+    "general": {
+        "website": "Website",
+        "description": "Hi ! I'm Adrien, and this is my personal website where I share my projects.",
+        "whatidid": "What I did ?",
+        "whatwedid": "What We did ?",
+        "style_guide": "Style Guide",
+        "general_idea": "General Idea",
+        "colours": "Colours",
+        "fonts": "Fonts",
+        "libraries": "Libraries",
+        "what_about": "What this is all about ?",
+        "lib_style_guide": "Libraries & Style Guide",
+        "lib_lang": "Libraries & Language"
+    },
+    "header": {
+        "about": "About",
+        "web_projects": "Web Projects",
+        "applications": "Applications",
+        "terminal": "Terminal"
+    },
+    "links": {
+        "p_base": "",
+        "en_link": "",
+        "fr_link": "fr"
+    },
+    "main": {
+        "intro": "I am Adrien, a french developer. I love all kind of tech and I wish to help as much people as I can, it's why I share my projects!",
+        "author": "This website was made with <span style=\"color: #e84a5f;font-style: italic;\">*&lt;3*</span> by Adrien Luitot.",
+        "copyright": "It's also proudly under MIT licence and available on <span style=\"color: #f69e7b;\">[<a href=\"https://github.com/adrienluitot/adrienluitot.github.io\" rel=\"nofollow\" target=\"_blank\">github</a>](<a href=\"https://github.com/adrienluitot/adrienluitot.github.io\" rel=\"nofollow\" target=\"_blank\">https://github.com/adrienluitot/adrienluitot.github.io</a>)</span>.",
+        "contact": "Want to contact me ? No problem, send me an e-mail at : <span style=\"color: #e84a5f;font-style: italic;\">*contact[at]adrien.luitot.fr*</span>"
+    },
+    "projects": {
+        "close_project": "Close Project",
+        "blogfish": {
+            "short_desc": "My personal blog",
+            "tldr": "BlogFish is my personal blog, the articles are principally talking about IT, Cyber Security or Electronics.",
+            "whatidid": "I created this blog for multiple reasons, but I will not extend myself here, it's already done on the blog (in french though). My goal was to have a blog relatively quickly, but also easy to maintain and static (without PHP). I also wanted to try something new, I finally chose Jekyll. I have made my own Jekyll theme from almost nothing, I was inspired by a few ideas that I liked of course. I also made the logo myself.",
+            "general_idea": "For the style I wanted something that looked \"IT\", to accomplish that I used a monospaced font for the titles and the navbar. I also wanted something that looks like notes or post-it, it's why I chose a yellow/beige background for the articles. Furthermore I chose a sans-serif font because I think it's more readable.",
+            "beige": "Yellow/Beige",
+            "dark_grey": "Dark Grey",
+            "pale_green": "Pale Green",
+            "jekyll_desc": "Jekyll allows to create pretty advanced static websites, although it's more optimised for blogs. It permits to create templates, and then to \"compile\" markdown files into HTML files. It's also possible to use plugins to complete Jekyll."
+        },
+        "diapason": {
+            "short_desc": "A full website for a music school",
+            "tldr": "LeDiapason34 is a music school. I made a simple website with an admin panel to manage it. The goal of the website is to give information to the students.",
+            "whatidid": "It's my first complete project, I really feel the difference of knowledge and final quality compared to my recent projects. A complete website was needed though, and I'm still proud of it. It needed a home page with the possibility to display or not a message on the home page, to edit the slider and to show the next concerts organized by the school. There are informative pages with editable prices for the courses and a tree of the association's members. Then there is a page for the school's teachers that use a masonry grid and can be filtered by instruments. Finally there is a \"news\" section, which is pretty basic.",
+            "general_idea": "As I said it was the begin of my real projects, so I didn't really make a style guide. I used a classical Bootstrap 4 fonts and some of the basic greys as well. I also used a bit of green which is the colour of the school.",
+            "bs_dark_grey": "Bs Dark Grey",
+            "light_grey": "Light Grey",
+            "green": "Green",
+            "bs_jq_desc": "I used <b>Bootstrap</b> & <b>Jquery</b>, thanks to that I made the website much faster.",
+            "ca_desc": "For the admin panel I used the template <b>Cool Admin</b>, which is a simple yet efficient admin panel."
+        },
+        "polycraft": {
+            "short_desc": "A simple theme for TrixCMS",
+            "tldr": "Polycraft is a theme made for the multi-gaming CMS <a href=\"https://trixcms.eu\" target=\"_blank\" rel=\"nofollow\">TrixCMS</a>. My goal was to make something original, but light and as beautiful as possible.",
+            "whatidid": "I wanted to make a new gender of theme, I also wanted to make it light so the users can find it original but fast to load. I gave me few constraints, I firstly wanted to make a theme based on polygons. I also obviously took some colours which was Black and Yellow. I think I chose these colours to recall the bees, because my first polygons were hexagons.",
+            "yellow": "Yellow",
+            "dark_grey": "Dark Grey",
+            "white": "White",
+            "bs_jq_desc": "I used <b>Bootstrap</b> & <b>Jquery</b>, thanks to that I made the theme much faster, it also make it more compatible and cleaner. But I admit it doesn't help to make the theme lighter.",
+            "swiper_desc": "<b>Swiper</b> is a JS & CSS library made to create customizable slider/carousels. I use it on the home page for the latest news."
+        },
+        "cryptenger_web": {
+            "short_desc": "A website fot the app Cryptenger",
+            "tldr": "Cryptenger is a small project of an encrypted messenger (more info <a href=\"#\" class=\"load-project\" data-project=\"cryptenger\">here</a>). I just made a simple static website with the help of friends to present the app Cryptenger.",
+            "whatidid": "At the begin it was a project for school, we had to make a project and a website to present it. To save time we had to start with a template (I don't remember which ones were available), but the proposed templates were old, so we almost changed everything. To my point of view, the most interesting part is the download page, on which you have a modern and original way to download the app from github, there is a bit of JS but nothing hard. The navbar is also original compared to \"classic\" websites. Otherwise the rest of the website are't much more than bootstrap's components. The logo and the banners are from <a href=\"https://www.artstation.com/quentin_costagliola\" target=\"_blank\" rel=\"nofollow\">Quentin</a>",
+            "white": "White",
+            "dark_blue": "Dark Blue",
+            "beige": "Beige",
+            "bs_jq_desc": "We used <b>Bootstrap</b> & <b>Jquery</b>, the template was already using them, we just updated them."
+        },
+        "gamer": {
+            "short_desc": "An integration of a theme for TrixCMS",
+            "tldr": "GameR is template made by <a href=\"https://jakubkwarcinski.pl/\" rel=\"nofollow\" target=\"_blank\">Jacub Kwarcinski</a>. I integrated it as a theme for the multigaming CMS TrixCMS.",
+            "whatidid": "GameR is a free and pretty beautiful template made by <a href=\"https://jakubkwarcinski.pl/\" rel=\"nofollow\" target=\"_blank\">Jacub Kwarcinski</a>. I integrated it for the CMS TrixCMS, which was still a hard job, mostly because it originally uses Bootstrap 3 and FontAwesome 4 and I needed to migrate them to Bootstrap 4 and FontAwesome 5. This was a little a pain because the Boostrap's code was melt with the template's code and also because the template is big and Bootstrap 4 changes a lot of thing compared to version 3. I made it though and the result is pretty good. I also changed and re adapted few things.",
+            "disclaimer_t": "Disclaimer",
+            "disclaimer": "As I said multiple times before I did <b>not</b> create this theme/template, I \"just\" integrated Jacub Kwarcinski's job, so the style guide isn't at all from me! (<a href=\"http://web.archive.org/web/20200605142821/https://themehunt.com/licenses\" rel=\"nofollow\" target=\"_blank\">licence</a> & <a href=\"http://web.archive.org/web/20200821094507/https://themehunt.com/item/1526056-gamer-gaming-html-template\" rel=\"nofollow\" target=\"_blank\">theme</a>)",
+            "white": "White",
+            "yellow": "Yellow",
+            "dark_grey": "Dark Grey",
+            "bs_jq_desc": "As I said, <b>Bootstrap</b> 3 & <b>Jquery</b> were already here, I just migrated them to a more recent version."
+        },
+        "others_web": {
+            "short_desc": "My other projects",
+            "title": "My other Web Projects",
+            "tldr": "Here is a list of my other minor web projects, I didn't want to make a full page for them so I condensed them here.",
+            "staff_plugin": "Staff Plugin",
+            "staff": {
+                "gen_idea": "I made a small plugin for the CMS TrixCMS to list website's staff. It allows to create roles and of courses staff members to which you assign roles, a description and some links.",
+                "lib_sg_1": "The CMS uses the php framework <a href=\"https://laravel.com/\" target=\"_blank\" rel=\"nofollow\">Laravel</a>, so I had to use it too.",
+                "lib_sg_2": "For the panel side I used the same design as the CMS and for the users side I didn't make a lot of work because everybody uses themes that override default plugin's style."
+            },
+            "support_plugin": "Support Plugin",
+            "support": {
+                "gen_idea": "The purpose of this plugin is to allow CMS users to have a ticket system. So they can create categories to organise the tickets. The members can create tickets and choose a category, a subject and a description. Then the moderators and the users can exchange through a messenger like system.",
+                "lib_sg_1": "As for the plugin above, I used the php framework <a href=\"https://laravel.com/\" target=\"_blank\" rel=\"nofollow\">Laravel</a> as the CMS uses it.",
+                "lib_sg_2": "For the panel side I used the same design as the CMS and for the users side I didn't make a lot of work as everybody uses themes that override default plugin's style like the plugin above."
+            }
+        },
+
+        "surfshark": {
+            "short_desc": "A GUI client for the VPN SurfShark",
+            "tldr": "SurfShark Linux Client is a GUI Client for the VPN SurfShark. It simplifies connections to servers, OpenVPN's credentials save, UDP/TCP selection...",
+            "whatidid": "SurfShark doesn't have a proper client for Linux, but they give OpenVPN configuration files and credentials to connect to the servers manually. The problem is that it's pretty inconvenient, less flexible and can lead to some bugs (for example if the computer goes on standby). The client has few features, but what I really wanted is something that allows me to (re)connect and to switch between servers quickly, so I made a simple interface. I added features like how much people are on servers (loads), a TCP/UDP switch, a password to crypt OpenVPN credentials, a way to update openVPN config files...",
+            "gen_idea": "I kept a little the style of SurfShark, mostly the colours. I also wanted something flat and modern, but I didn't want to take to much time on this, as I mostly wanted something functional.",
+            "dark_blue": "Dark Blue",
+            "light_grey": "Light Grey",
+            "white": "White",
+            "python_desc": "I used <b>Python</b>, which is a pretty good language for little projects like this.",
+            "pygobject_desc": "<b>PyGObject</b> is a python library to make graphical apps with GTK. It's fast and easy to make a little app with.",
+            "pygobject_gl": "PyGObject's GitLab"
+        },
+        "cryptenger": {
+            "short_desc": "An encrypted messenger app",
+            "tldr": "Cryptenger is a light encrypted and decentralised messenger app. It has in goal to be a beautiful application with a server that anybody can initialise easily.",
+            "whatwedid": "At the begin it was a project for school, we were 3 friends and we wanted a messenger app that is fully secured but as easy to use as Discord or WhatsApp. For the secured part we wanted to encrypt messages, but because we wanted people to be sure they aren't spied by the server we decided to let people initialise their own server. To encrypt messages we firstly initialise a connection with an asymmetric encryption to then exchange the symmetric key and finally messages are symmetrically encrypted.",
+            "client_t": "Client",
+            "server_t": "Server",
+            "white": "White",
+            "dark_grey": "Dark Grey",
+            "darky_grey": "Darky Grey",
+            "python_desc": "We used <b>Python</b>, which is a pretty good language for little projects like this, we were also limited by the rules of the project.",
+            "crypt_desc": "For the encryption we used the Python's libraries Cyptography for the asymmetric part and PyCryptoDome for the symmetric part.",
+            "client": {
+                "about": "The client is pretty simple, there is a connection window and then it sends you to the server. Server are \"divided\" by channels.",
+                "style_guide": "We all gave our ideas for the general style guide and the logo is from <a href=\"https://www.artstation.com/quentin_costagliola\" target=\"_blank\" rel=\"nofollow\">Quentin</a>.",
+                "qt_desc": "We used Qt, and more precisely PyQt, for the interface of the application, it's a little harder than PyGObject to my point of view but it's very still efficient!"
+            },
+            "server": {
+                "about": "The server is managed through a python script and configured through a json file. A possible upgrade is to make the script nearer to Unix commands, with parameters for example.",
+                "style_guide": "It's a script so there isn't an interface but your terminal. ^^"
+            }
+        }
+    }
+}

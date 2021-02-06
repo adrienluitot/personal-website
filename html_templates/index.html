@@ -1,0 +1,218 @@
+<!DOCTYPE>
+<html data-attr-t lang-t="curr_lang">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adrien Luitot</title>
+
+        <link rel="icon" href="favicon.png">
+
+        <meta name="theme-color" content="#a7425c">
+        <meta name="description" data-attr-t data-attr-t-interpolate content-t="{{general.description}}">
+
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="assets/css/fullpage.min.css">
+
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link id="project-style" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="loader">
+            <span class="loader-text-repeat">Loading...</span>
+            <span class="loader-text-repeat">Loading...</span>
+            <span class="loader-text">Loading...</span>
+            <span class="loader-text-repeat">Loading...</span>
+            <span class="loader-text-repeat">Loading...</span>
+            <span class="loader-text-repeat">Loading...</span>
+            <span class="loader-text-repeat">Loading...</span>
+        </div>
+
+        <header>
+            <nav class="navbar navbar-expand-sm fixed-top">
+                <a class="navbar-brand" href="#abouts">Adrien Luitot</a>
+                <button  id="navbar-toggler" class="navbar-toggler">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="navbar-collapse collapse" id="navbar-links">
+                    <ul class="navbar-nav" id="menu">
+                        <li class="nav-item active" data-menuanchor="abouts">
+                            <a class="nav-link fullpage-anchor" href="#abouts" data-t>header.about</a>
+                        </li>
+                        <li class="nav-item" data-menuanchor="webprojects">
+                            <a class="nav-link fullpage-anchor" href="#webprojects" data-t>header.web_projects</a>
+                        </li>
+                        <li class="nav-item" data-menuanchor="applications">
+                            <a class="nav-link fullpage-anchor" href="#applications" data-t>header.applications</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="langDropdown" data-t>curr_lang</a>
+                            <div class="dropdown-menu" id="langDropdownMenu">
+                                <a data-attr-t data-attr-t-interpolate href-t="{{links.en_link}}" class="dropdown-item">En</a>
+                                <a data-attr-t data-attr-t-interpolate href-t="{{links.fr_link}}" class="dropdown-item">Fr</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <a id="close-project">&times;<span data-t>projects.close_project</span></a>
+        <div id="project-window">
+            <div id="project-wrapper"></div>
+        </div>
+
+        <div id="fullpage">
+            <div class="section" id="about" data-anchor="abouts">
+                <div class="container">
+                    <p class="about-desc col-12 col-md-9 col-lg-7" data-t>main.intro</p>
+                </div>
+
+                <div id="about_icons">
+                    <i class="parallaxed fab fa-osi"></i>
+                    <i class="parallaxed fab fa-redhat"></i>
+                    <i class="parallaxed fab fa-linux"></i>
+                    <i class="parallaxed fab fa-php"></i>
+                    <i class="parallaxed fab fa-node-js"></i>
+                    <i class="parallaxed fab fa-html5"></i>
+                    <i class="parallaxed fab fa-css3-alt"></i>
+                    <i class="parallaxed fab fa-markdown"></i>
+                    <i class="parallaxed fas fa-code"></i>
+                    <i class="parallaxed fas fa-code-branch"></i>
+                    <i class="parallaxed fas fa-terminal"></i>
+                    <i class="parallaxed fas fa-keyboard"></i>
+                    <i class="parallaxed fas fa-gamepad"></i>
+                    <i class="parallaxed fas fa-fist-raised"></i>
+                    <span class="parallaxed"><i class="fas fa-copyright fa-rotate-180"></i></span>
+                    <i class="parallaxed fas fa-compact-disc"></i>
+                </div>
+            </div>
+
+            <div class="section" id="web-projects" data-anchor="webprojects">
+                <div class="slider-container" id="web-projects-slider" data-shifts="0">
+                    <div class="slider-wrapper row">
+                        <a class="slider-slide col-xl-3 col-lg-4 col-md-6 col-12" data-project="blogfish">
+                            <span class="project-name">BlogFish</span>
+                            <span class="project-short-desc" data-t>projects.blogfish.short_desc</span>
+                            <span class="project-date">2020 - 2021</span>
+                            <div class="project-illustration"></div>
+                        </a>
+
+                        <a class="slider-slide col-xl-3 col-lg-4 col-md-6 col-12" data-project="cryptenger_web">
+                            <span class="project-name">Cryptenger</span>
+                            <span class="project-short-desc" data-t>projects.cryptenger_web.short_desc</span>
+                            <span class="project-date">2019 - 2020</span>
+                            <div class="project-illustration"></div>
+                        </a>
+
+                        <a class="slider-slide col-xl-3 col-lg-4 col-md-6 col-12" data-project="polycraft">
+                            <span class="project-name">PolyCraft</span>
+                            <span class="project-short-desc" data-t>projects.polycraft.short_desc</span>
+                            <span class="project-date">2018 - 2019</span>
+                            <div class="project-illustration"></div>
+                        </a>
+
+                        <a class="slider-slide col-xl-3 col-lg-4 col-md-6 col-12" data-project="gamer">
+                            <span class="project-name">GameR Integration</span>
+                            <span class="project-short-desc" data-t>projects.gamer.short_desc</span>
+                            <span class="project-date">2020</span>
+                            <div class="project-illustration"></div>
+                        </a>
+
+                        <a class="slider-slide col-xl-3 col-lg-4 col-md-6 col-12" data-project="diapason34">
+                            <span class="project-name">Le Diapason 34</span>
+                            <span class="project-short-desc" data-t>projects.diapason.short_desc</span>
+                            <span class="project-date">2017</span>
+                            <div class="project-illustration"></div>
+                        </a>
+
+                        <a class="slider-slide col-xl-3 col-lg-4 col-md-6 col-12" data-project="web_others">
+                            <span class="project-name">Others</span>
+                            <span class="project-short-desc" data-t>projects.others_web.short_desc</span>
+                            <div class="project-illustration"></div>
+                        </a>
+                    </div>
+
+                    <a class="slider-button-prev"><i class="fas fa-chevron-left"></i></a>
+                    <a class="slider-button-next"><i class="fas fa-chevron-right"></i></a>
+                </div>
+
+                <div id="globe">
+                    <img src="assets/images/globe.svg">
+                </div>
+            </div>
+
+            <div class="section" id="applications-projects" data-anchor="applications">
+                <div class="slider-container" id="applications-projects-slider" data-shifts="0">
+                    <div class="slider-wrapper row">
+                        <a class="slider-slide col-xl-3 col-lg-4 col-md-6 col-12" data-project="surfshark">
+                            <span class="project-name">Surfshark Linux Client</span>
+                            <span class="project-short-desc" data-t>projects.surfshark.short_desc</span>
+                            <span class="project-date">2020</span>
+                            <div class="project-illustration"></div>
+                        </a>
+
+                        <a class="slider-slide col-xl-3 col-lg-4 col-md-6 col-12" data-project="cryptenger">
+                            <span class="project-name">Cryptenger</span>
+                            <span class="project-short-desc" data-t>projects.cryptenger.short_desc</span>
+                            <span class="project-date">2019 - 2020</span>
+                            <div class="project-illustration"></div>
+                        </a>
+                    </div>
+
+                    <a class="slider-button-prev"><i class="fas fa-chevron-left"></i></a>
+                    <a class="slider-button-next hide"><i class="fas fa-chevron-right"></i></a>
+                </div>
+
+                <div id="software">
+                    <img src="assets/images/software.svg">
+                </div>
+            </div>
+
+            <footer class="section" id="footer" data-anchor="footer">
+                <div class="container">
+                    <div class="terminal">
+                        <div class="terminal-header">
+                            <span class="spacer"></span>
+                            <span class="terminal-title">vim footer.md</span>
+                            <div class="">
+                                <a class="shut-terminal"><i class="fas fa-minus"></i></a><!--
+                                --><a class="expand-terminal"><i class="fas fa-caret-down"></i><i class="fas fa-caret-up"></i></a><!--
+                                --><a class="close-terminal"><i class="fas fa-times"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="terminal-content">
+                            <span id="terminal-cursor">&nbsp;</span>
+                            <p data-t>main.author</p>
+                            <p data-t>main.copyright</p>
+                            <p>&nbsp;</p>
+                            <p data-t>main.contact</p>
+                            <p class="breakline">~</p>
+                            <p class="breakline">~</p>
+                            <p class="breakline">~</p>
+                            <p class="breakline">~</p>
+                            <p class="breakline">~</p>
+                            <p class="vim-bottom"><span>"footer.md" [readonly] 4L, 235C</span> <span>1,1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="keyboard">
+                    <img src="assets/images/keyboard.svg">
+                </div>
+
+                <script type="application/javascript" src="assets/js/fullpage.min.js"></script>
+                <script type="application/javascript" src="assets/js/parallax.min.js"></script>
+
+                <trans id="nav-trans" data-attr-t data-attr-t-interpolate value-t="{{header.about}},{{header.web_projects}},{{header.applications}},{{header.terminal}}"></trans>
+                <trans id="base-path" data-attr-t data-attr-t-interpolate value-t="{{links.p_base}}"></trans>
+
+                <script type="application/javascript" src="assets/js/script.js"></script>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../assets/fonts/Montserrat/Montserrat-Bold.woff2");
+    font-weight: bold;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../assets/fonts/Montserrat/Montserrat-Regular.woff2");
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../assets/fonts/Montserrat/Montserrat-Light.woff2");
+    font-weight: 300;
+    font-display: swap;
+}
+
+#diapason34 p {
+    justify-content: center;
+}
+
+.diapason-links {
+    margin-top: 2rem;
+}
+.diapason-links a i {
+    color: #222 !important;
+    font-size: 3rem;
+}
+.diapason-links .link span {
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+.style-guide {
+    background: #444;
+    padding: 2.5rem 1.5rem 7rem 1.5rem;
+    margin-top: 2rem;
+}
+
+.style-guide-fonts .font {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 1.3rem;
+}
+.style-guide-fonts .font p {
+    margin-bottom: 0;
+}
+
+.style-guide-fonts .font .font-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.style-guide-fonts .font .font-numbers {
+    font-weight: 300;
+}
+
+.libraries {
+    background: #252525;
+    padding: 2rem;
+}
+#diapason34 .libraries h2 {
+    margin-bottom: 1rem;
+}
+
+
+.libraries .links {
+    display: flex;
+    justify-content: center;
+}
+.libraries .links .link {
+    margin: 0 .75rem;
+}
+.libraries .links .link span {
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+@media (max-width: 767.98px) {
+    #diapason34 .libraries h2 {
+        margin-bottom: 2rem;
+    }
+    .libraries .library:not(:first-child) {
+        margin-top: 2.5rem;
+    }
+}

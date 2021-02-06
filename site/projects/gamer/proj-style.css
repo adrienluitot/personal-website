@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'PressStart';
+    src: url("../../assets/fonts/PressStart/PressStart2P.woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url("../../assets/fonts/Lato/Lato-Light.woff2");
+    font-display: swap;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url("../../assets/fonts/Lato/Lato-Regular.woff2");
+    font-display: swap;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url("../../assets/fonts/Lato/Lato-Bold.woff2");
+    font-display: swap;
+    font-weight: 600;
+}
+
+
+#project-wrapper #gamer .tldr-container {
+    margin-bottom: calc(-50% + 2rem);
+}
+@media (max-width: 991.98px) {
+    #project-wrapper #gamer .tldr-container {
+        margin-bottom: -3rem;
+    }
+}
+
+.style-guide {
+    background: #444;
+    padding: 2.5rem 1.5rem 7rem 1.5rem;
+    margin-top: 2rem;
+}
+
+#gamer .style-guide-fonts .font {
+    margin: 0 1rem;
+}
+
+
+.style-guide-fonts .font.lato-font {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: 1.3rem;
+    line-height: 1.477;
+}
+.style-guide-fonts .font p {
+    margin-bottom: 0;
+}
+
+.style-guide-fonts .font .font-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.style-guide-fonts .font .font-numbers {
+    font-weight: 300;
+}
+.style-guide-fonts .font.pressstart-font {
+    font-family: 'PressStart', monospace;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 2;
+}
+.style-guide-fonts .font.pressstart-font .font-name {
+    font-size: 1.5rem;
+}
+
+.libraries {
+    background: #252525;
+    padding: 2rem;
+}
+#gamer .libraries h2 {
+    margin-bottom: 1.5rem;
+}
+
+
+.libraries .links {
+    display: flex;
+    justify-content: center;
+}
+.libraries .links .link {
+    margin: 0 .75rem;
+}
+.libraries .links .link span {
+    font-weight: 100;
+    font-size: .9rem;
+}
+@media (max-width: 991.98px) {
+    #gamer .libraries h2 {
+        margin-bottom: 2rem;
+    }
+}

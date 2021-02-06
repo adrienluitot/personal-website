@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../../assets/fonts/OpenSans/OpenSans-Bold.woff2");
+    font-weight: bold;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../../assets/fonts/OpenSans/OpenSans-Regular.woff2");
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../../assets/fonts/OpenSans/OpenSans-Light.woff2");
+    font-weight: 300;
+    font-display: swap;
+}
+
+#cryptenger p {
+    justify-content: center;
+}
+
+.cryptenger-links {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.cryptenger-links .link {
+    margin: 0 .75rem;
+}
+.cryptenger-links a i {
+    color: #222 !important;
+    font-size: 3rem;
+}
+.cryptenger-links .link span {
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+.style-guide {
+    background: #444;
+    padding: 2.5rem 1.5rem 7rem 1.5rem;
+    margin-top: 2rem;
+}
+
+.style-guide-fonts .font {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 1.3rem;
+}
+.style-guide-fonts .font p {
+    margin-bottom: 0;
+}
+
+.style-guide-fonts .font .font-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.style-guide-fonts .font .font-numbers {
+    font-weight: 300;
+}
+
+.libraries {
+    background: #252525;
+    padding: 2rem;
+}
+#cryptenger .libraries h2 {
+    margin-bottom: 1.5rem;
+}
+
+
+.libraries .links {
+    display: flex;
+    justify-content: center;
+}
+.libraries .links .link {
+    margin: 0 .75rem;
+}
+.libraries .links .link span {
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+@media (max-width: 991.98px) {
+    #cryptenger .libraries h2 {
+        margin-bottom: 2rem;
+    }
+    .libraries .library:not(:first-child) {
+        margin-top: 2.5rem;
+    }
+}

@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../../assets/fonts/OpenSans/OpenSans-Bold.woff2");
+    font-weight: bold;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../../assets/fonts/OpenSans/OpenSans-Regular.woff2");
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../../assets/fonts/OpenSans/OpenSans-Light.woff2");
+    font-weight: 300;
+    font-display: swap;
+}
+
+.style-guide {
+    background: #181818;
+    margin-top: 3rem;
+}
+#polycraft .style-guide h2 {
+    margin-bottom: 1.5rem;
+}
+
+.style-guide-colours .colour-container {
+    padding: .5rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.style-guide-colours .middle-colour {
+    background: #fdd214;
+    color: #181818;
+    clip-path: polygon(2rem 0, 100% 0%, calc(100% - 2rem) 100%, 0% 100%);
+}
+@media (max-width: 991.98px) {
+    .style-guide {
+        background: #444;
+    }
+    .style-guide-colours {
+        padding: 1.5rem 1rem;
+    }
+    .style-guide-colours .middle-colour {
+        background: transparent;
+        color: #fff;
+        clip-path: unset;
+    }
+}
+
+.style-guide-colours .colour {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+
+.style-guide-fonts {
+    padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+    width: 100%;
+    background: #333;
+}
+.style-guide-fonts .font {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 1.3rem;
+}
+.style-guide-fonts .font p {
+    margin-bottom: 0;
+}
+
+.style-guide-fonts .font .font-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.style-guide-fonts .font .font-numbers {
+    font-weight: 300;
+}
+
+
+.libraries {
+    background: #181818;
+    color: #fff;
+    padding: 1rem 0;
+}
+#polycraft .libraries h2 {
+    margin-bottom: 2rem;
+}
+#polycraft .libraries h3 {
+    margin-bottom: 1.3rem;
+}
+
+
+.libraries .library-desc {
+    padding: 1rem;
+}
+.libraries .library-image {
+    background-size: cover;
+    background-position: center;
+}
+
+.libraries .library:nth-child(2n) .library-image {
+    clip-path: polygon(2rem 0, 100% 0%, 100% 100%, 0% 100%);
+}
+.libraries .library:nth-child(2n-1) .library-image {
+    clip-path: polygon(0 0, 100% 0%, calc(100% - 2rem) 100%, 0% 100%);
+}
+
+.libraries .links {
+    display: flex;
+    justify-content: center;
+}
+.libraries .links .link {
+    margin: 0 .75rem;
+}
+.libraries .links .link span {
+    font-weight: 100;
+    font-size: .9rem;
+}

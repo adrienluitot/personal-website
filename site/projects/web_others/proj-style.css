@@ -1,0 +1,14 @@
+#trix_staff {
+    background: #252525;
+    padding: 2.5rem 1.5rem
+}
+
+#trix_support {
+    background: #444444;
+    padding: 2.5rem 1.5rem
+}
+
+.links .link span {
+    font-weight: 100;
+    font-size: .9rem;
+}

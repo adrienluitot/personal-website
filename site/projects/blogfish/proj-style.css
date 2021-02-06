@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Inconsolata';
+    src: url("../../assets/fonts/inconsolata/Inconsolata-Bold.woff2");
+    font-weight: bold;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inconsolata';
+    src: url("../../assets/fonts/inconsolata/Inconsolata-Regular.woff2");
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url("../../assets/fonts/lora/Lora-Bold.woff2");
+    font-weight: bold;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lora';
+    src: url("../../assets/fonts/lora/Lora-Regular.woff2");
+    font-weight: normal;
+    font-display: swap;
+}
+
+#blogfish p {
+    justify-content: center;
+}
+
+.blogfish-links {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.blogfish-links .link {
+    margin: 0 .75rem;
+}
+.blogfish-links a i {
+    color: #222 !important;
+    font-size: 3rem;
+}
+.blogfish-links .link span {
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+
+.style-guide {
+    background: #444;
+    padding: 2.5rem 1.5rem 7rem 1.5rem;
+    margin-top: 2rem;
+}
+
+.style-guide-fonts .font {
+    text-align: left;
+    font-size: 1.3rem;
+    margin: 0 1rem;
+}
+.style-guide-fonts .font.inconsolata-font {
+    font-family: 'Inconsolata', monospace;
+}
+.style-guide-fonts .font.lora-font {
+    font-family: 'Lora', serif;
+}
+
+.style-guide-fonts .font p {
+    margin-bottom: 0;
+}
+
+.style-guide-fonts .font .font-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.libraries {
+    background: #252525;
+    padding: 2rem;
+}
+#blogfish .libraries h2 {
+    margin-bottom: 1.5rem;
+}
+
+.libraries .links {
+    display: flex;
+    justify-content: center;
+}
+.libraries .links .link {
+    margin: 0 .75rem;
+}
+.libraries .links .link span {
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+@media (max-width: 991.98px) {
+    #blogfish .libraries h2 {
+        margin-bottom: 2rem;
+    }
+    .libraries .library:not(:first-child) {
+        margin-top: 2.5rem;
+    }
+}
