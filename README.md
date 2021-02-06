@@ -1,6 +1,6 @@
 # Personal Website
 
-This is the repo of my website, which you can find at [[https://adrien.luitot.fr](https://adrien.luitot.fr)](https://adrien.luitot.fr).
+This is the repo of my website, which you can find at [https://adrien.luitot.fr](https://adrien.luitot.fr).
 
 ## Why making a git ?
 
@@ -32,7 +32,7 @@ The website is splitted into two parts, the main page and the projects. The main
   
   - `index.html`: this is the generated main page, it must not be modified here, but in the `html_templates` folder.
 
--  `update_translation.sh`: this is a short shell script that generates the translated files. More information below. *NB: This will only work on linux (and maybe MacOS ?), I haven't made a script for Windows but it should be doable, feel free to make a PR if you made one :D*
+- `update_translation.sh`: this is a short shell script that generates the translated files. More information below. *NB: This will only work on linux (and maybe MacOS ?), I haven't made a script for Windows but it should be doable, feel free to make a PR if you made one :D*
 
 ### Translation
 
@@ -83,25 +83,3 @@ You don't need to download them (unless node-static-i18n), it's just that I want
 - [Font Awesome](https://github.com/FortAwesome/Font-Awesome): used for most of the icons on the website.
 
 - [node-static-i18n](https://github.com/claudetech/node-static-i18n): used for the translation system.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
