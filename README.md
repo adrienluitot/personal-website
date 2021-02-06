@@ -48,7 +48,7 @@ The translation must be done in two steps to work properly, one for the main pag
 
 1) Download [node-static-i18n](https://github.com/claudetech/node-static-i18n)
 
-2) Clone the project : `git clonehttps://github.com/adrienluitot/personal-website.git`
+2) Clone the project : `git clone https://github.com/adrienluitot/personal-website.git`
 
 3) Open the folder `cd personal-website`
 
